@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#16a34a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#15803d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fef08a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#eab308;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone -->
+  <rect width="512" height="512" rx="108" fill="url(#grad)" />
+  
+  <!-- Warm Sun in horizon -->
+  <circle cx="256" cy="190" r="76" fill="url(#sun)" opacity="0.95" />
+  
+  <!-- Soil & Furrows -->
+  <path d="M 64 360 Q 160 330 256 360 T 448 360 L 448 430 Q 352 450 256 430 T 64 430 Z" fill="#78350f" opacity="0.8" />
+  <path d="M 64 380 Q 160 350 256 380 T 448 380 L 448 448 Q 352 460 256 448 T 64 448 Z" fill="#451a03" />
+
+  <!-- Vibrant Golden Wheat / Crop Sheaf -->
+  <g transform="translate(256, 260)">
+    <!-- Central Stalk -->
+    <path d="M 0 60 Q 0 -60 0 -130" stroke="#fef08a" stroke-width="10" stroke-linecap="round" fill="none" />
+    <!-- Wheat grains left -->
+    <ellipse cx="-24" cy="-110" rx="18" ry="10" transform="rotate(-30, -24, -110)" fill="#fef08a" />
+    <ellipse cx="-30" cy="-75" rx="20" ry="11" transform="rotate(-30, -30, -75)" fill="#facc15" />
+    <ellipse cx="-32" cy="-40" rx="22" ry="12" transform="rotate(-30, -32, -40)" fill="#facc15" />
+    <ellipse cx="-28" cy="-5" rx="20" ry="11" transform="rotate(-30, -28, -5)" fill="#eab308" />
+    
+    <!-- Wheat grains right -->
+    <ellipse cx="24" cy="-110" rx="18" ry="10" transform="rotate(30, 24, -110)" fill="#fef08a" />
+    <ellipse cx="30" cy="-75" rx="20" ry="11" transform="rotate(30, 30, -75)" fill="#facc15" />
+    <ellipse cx="32" cy="-40" rx="22" ry="12" transform="rotate(30, 32, -40)" fill="#facc15" />
+    <ellipse cx="28" cy="-5" rx="20" ry="11" transform="rotate(30, 28, -5)" fill="#eab308" />
+    
+    <!-- Top Awn / Head -->
+    <ellipse cx="0" cy="-140" rx="12" ry="20" fill="#fef08a" />
+    <line x1="0" y1="-155" x2="0" y2="-185" stroke="#fef08a" stroke-width="6" stroke-linecap="round" />
+  </g>
+
+  <!-- Green Leaves Sprouting -->
+  <path d="M 256 320 C 220 280 150 280 140 310 C 170 330 220 330 256 320 Z" fill="#86efac" />
+  <path d="M 256 320 C 292 280 362 280 372 310 C 342 330 292 330 256 320 Z" fill="#86efac" />
+
+  <!-- Modern White Badge Ring -->
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.35" />
+</svg>

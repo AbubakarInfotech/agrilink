@@ -1,0 +1,11 @@
+{
+  "name": "AgriLink",
+  "description": "Zameendar Saathi - Mobile-first agricultural marketplace, daily mandi crop rates, equipment rental, and bilingual Urdu/Sindhi AI assistant for farmers in Sindh, Pakistan.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
